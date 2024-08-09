@@ -3,8 +3,8 @@ from collections import Counter
 import json
 
 bdays = {
-    "Names":['Monn','Ammar','Yoyo','Ess','Far'],
-    "Dates":['06/09','17/03','22/03','25/01','07/01']
+    "Names":[],
+    "Dates":[]
 }
 with open('bdjs.json',"r") as inn:
     bdjs = json.load(inn)
